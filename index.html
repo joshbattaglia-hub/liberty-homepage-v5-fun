@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Liberty — Fun homepage (7-Eleven energy)</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    Hot food deal drop · Dim sims from $4.50 · <a href="#locator">Find a Station</a>
+  </div>
+
+  <header class="nav">
+    <div class="logo">Liberty<span class="flame" aria-hidden="true"></span></div>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#food">Food</a>
+      <a href="#drinks">Drinks</a>
+      <a href="#flame">Flame Club</a>
+      <a href="#fuels">Fuels</a>
+      <a href="#news">News</a>
+    </nav>
+    <div class="nav-right">
+      <a class="find" href="#locator"><i aria-hidden="true"></i>Find a Station</a>
+      <span class="account" aria-label="Account"></span>
+    </div>
+  </header>
+
+  <section class="hero-slider" id="food" aria-roledescription="carousel" aria-label="Featured promotions">
+    <div class="slides" id="slides">
+      <article class="slide s1" aria-roledescription="slide" aria-label="1 of 3">
+        <div class="slide-copy">
+          <h1>Hot food.<br>Ready now.</h1>
+          <p>Dim sims, potato cakes, wraps — grab ’em fresh and hit the road.</p>
+          <a class="btn-pill" href="#menu">See what’s on</a>
+        </div>
+        <div class="slide-media" role="img" aria-label="Hot food at Liberty"></div>
+        <div class="price-burst">$4.50<small>dim sims 2pk</small></div>
+      </article>
+      <article class="slide s2" id="drinks" aria-roledescription="slide" aria-label="2 of 3">
+        <div class="slide-copy">
+          <h1>Iced coffee<br>hit.</h1>
+          <p>Barista energy without the queue. Pair it with hot food.</p>
+          <a class="btn-pill" href="#drinks">Get caffeinated</a>
+        </div>
+        <div class="slide-media" role="img" aria-label="Iced coffee"></div>
+        <div class="price-burst">NOW<small>in store</small></div>
+      </article>
+      <article class="slide s3" aria-roledescription="slide" aria-label="3 of 3">
+        <div class="slide-copy">
+          <h1>Pay. Pump.<br>Go.</h1>
+          <p>Flame Club at the dispenser — skip the counter and roll.</p>
+          <a class="btn-pill" href="https://neon-blancmange-3bdf6c.netlify.app/" target="_blank" rel="noopener noreferrer">Get the app</a>
+        </div>
+        <div class="slide-media" role="img" aria-label="Liberty station"></div>
+      </article>
+    </div>
+    <div class="slider-ui">
+      <button type="button" class="arrow" id="prev" aria-label="Previous slide">‹</button>
+      <div class="dots" role="tablist" aria-label="Slide indicators">
+        <button type="button" class="dot on" role="tab" aria-label="Go to slide 1" aria-selected="true" data-index="0"></button>
+        <button type="button" class="dot" role="tab" aria-label="Go to slide 2" aria-selected="false" data-index="1"></button>
+        <button type="button" class="dot" role="tab" aria-label="Go to slide 3" aria-selected="false" data-index="2"></button>
+      </div>
+      <button type="button" class="arrow" id="next" aria-label="Next slide">›</button>
+    </div>
+  </section>
+
+  <section class="alert">
+    <div>
+      <span class="badge">New</span>
+      <strong>Flame Club · Pay Pump &amp; Go</strong>
+      <p style="margin-top:6px;font-weight:600;">Authorise in-app, fill up, pay at the pump. No counter required.</p>
+    </div>
+    <a class="btn-pill" href="https://neon-blancmange-3bdf6c.netlify.app/" target="_blank" rel="noopener noreferrer">Try it</a>
+  </section>
+
+  <section class="apps" id="flame">
+    <h2>Do more in the app</h2>
+    <p class="sub">Rewards, draws, hot food deals — all in Flame Club.</p>
+    <div class="app-grid">
+      <div class="app-card feature">
+        <div>
+          <div style="font-weight:900;letter-spacing:1px;font-size:12px;">FLAME CLUB</div>
+          <h3>Rewards. Draws. Pay Pump &amp; Go.</h3>
+          <p style="font-weight:600;opacity:.95;">One app. More fun at every stop.</p>
+        </div>
+        <a class="btn-pill" href="https://neon-blancmange-3bdf6c.netlify.app/" target="_blank" rel="noopener noreferrer" style="background:#fff;color:#000;">Get the app</a>
+      </div>
+      <div class="app-card">
+        <div class="phone-wrap"><img src="https://liberty-homepage-v5-fun.netlify.app/assets/fc-home.jpg" alt="Flame Club home" /></div>
+        <div class="body">
+          <h3>Home &amp; draws</h3>
+          <p>Bank entries every fill and every $5+ shop.</p>
+          <a class="linkish" href="https://neon-blancmange-3bdf6c.netlify.app/" target="_blank" rel="noopener noreferrer">Open Flame Club →</a>
+        </div>
+      </div>
+      <div class="app-card">
+        <div class="phone-wrap"><img src="https://liberty-homepage-v5-fun.netlify.app/assets/fc-menu.jpg" alt="Hot food menu" /></div>
+        <div class="body">
+          <h3>Hot food menu</h3>
+          <p>See today’s specials — scan to unlock BOGO deals.</p>
+          <a class="linkish" href="https://neon-blancmange-3bdf6c.netlify.app/" target="_blank" rel="noopener noreferrer">Browse menu →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news" id="news">
+    <div class="news-head">
+      <h2>What’s new</h2>
+      <a class="linkish" href="#all" style="color:#000;">View all →</a>
+    </div>
+    <div class="news-grid">
+      <article class="news-card">
+        <div class="thumb n1"></div>
+        <div class="body">
+          <span class="meta">Food</span>
+          <h3>Hot food range just got louder</h3>
+          <p>More on the warmer — dim sims to wraps.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="thumb n2"></div>
+        <div class="body">
+          <span class="meta">Drinks</span>
+          <h3>Iced coffee season is on</h3>
+          <p>Barista cups ready when you are.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="thumb n3"></div>
+        <div class="body">
+          <span class="meta">App</span>
+          <h3>Pay Pump &amp; Go is live</h3>
+          <p>Skip the queue at participating sites.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="locator" id="locator">
+    <div>
+      <h2>Find a Liberty</h2>
+      <p>AU-first locator — suburb or postcode for fuel, hot food &amp; Flame Club.</p>
+      <div class="locator-form">
+        <input type="text" value="Hawthorn East VIC" readonly aria-label="Suburb or postcode" />
+        <a class="btn-pill" href="#map" style="background:var(--lime);color:#000;">Search</a>
+      </div>
+      <p style="font-size:13px;opacity:.85;">Defaults to Australia — never overseas.</p>
+    </div>
+    <div class="map-panel">
+      <img src="https://liberty-homepage-v5-fun.netlify.app/assets/au-map.svg" alt="Australia map with station pins" />
+      <div class="cap">80+ stations · Australia-wide</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="logo">Liberty<span class="flame" aria-hidden="true"></span></div>
+        <p style="font-size:14px;max-width:260px;font-weight:600;margin-top:8px;">Fuel, hot food &amp; Flame Club fun across Australia.</p>
+        <div class="socials"><span>f</span><span>ig</span><span>in</span><span>x</span></div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#drinks">Drinks</a></li>
+          <li><a href="#fuels">Fuels</a></li>
+          <li><a href="#flame">Flame Club</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#locator">Find a Station</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#careers">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#terms">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© Liberty Oil Convenience · Draft mockup — not live</span>
+      <span>Australia</span>
+    </div>
+  </footer>
+
+<script src="slider.js"></script>
+</body>
+</html>
