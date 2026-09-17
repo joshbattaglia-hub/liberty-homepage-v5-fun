@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420">
+  <rect width="640" height="420" fill="#E8F1FB"/>
+  <path fill="#0057B8" opacity="0.85" d="M480 70c40 10 70 55 55 100-10 30 5 55-20 80-30 30-70 35-110 55-25 12-55 5-70-15-20-25-55-20-75-5-30 22-70 10-85-20-10-20-35-30-55-20-25 12-50-5-45-35 5-35 35-55 65-50 25 5 40-20 30-40-15-30 10-65 45-70 40-5 70 25 95 20 20-5 40-25 70-20 25 5 45 20 50 40z"/>
+  <circle cx="420" cy="200" r="8" fill="#EF3B24"/>
+  <circle cx="380" cy="240" r="6" fill="#EF3B24"/>
+  <circle cx="460" cy="160" r="6" fill="#EF3B24"/>
+  <circle cx="340" cy="180" r="5" fill="#EF3B24"/>
+  <circle cx="300" cy="260" r="5" fill="#EF3B24"/>
+  <circle cx="500" cy="220" r="5" fill="#EF3B24"/>
+  <text x="40" y="380" font-family="Arial" font-size="18" fill="#0057B8" font-weight="700">80+ stations · Australia-wide</text>
+</svg>
