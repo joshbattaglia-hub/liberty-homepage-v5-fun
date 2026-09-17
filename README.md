@@ -4,9 +4,11 @@ Draft / preview only. Not connected to libertyconvenience.com.au.
 
 Static HTML homepage with a working hero slider, Flame Club CTAs linking to the app prototype, and responsive layout via CSS media queries.
 
-## Local
+## Live preview
 
-Open `index.html` in a browser, or:
+https://liberty-homepage-v5-fun.netlify.app
+
+## Local
 
 ```bash
 npx --yes serve .
@@ -14,5 +16,6 @@ npx --yes serve .
 
 ## Deploy
 
-Netlify site: publish directory `.` (see `netlify.toml`).
-Live: https://liberty-homepage-v5-fun.netlify.app
+Netlify site `liberty-homepage-v5-fun` (account `jbattaglia`): publish directory `.` (see `netlify.toml`).
+
+Flame Club app prototype: https://neon-blancmange-3bdf6c.netlify.app/
